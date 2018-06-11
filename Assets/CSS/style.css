@@ -5,27 +5,22 @@ body, html {
     z-index: 1;
 }
 
-.wrapper {
-    display: flex;
-}
-
 .holocrons {
-    height: 85px;
-    width: 85px;
     margin: 8px;
     display: inline;
+    height: 100px;
+    width: 100px;
 }
 
 header {
     font-size: 50px;    
 }
 
-
 img.background-image {
     /* Set rules to fill background */
     min-height: 100%;
     min-width: 1024px;
-    max-height: 70%;
+    max-height: 100%;
       
     /* Set up proportionate scaling */
     width: 100%;
