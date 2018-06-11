@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/CSS/style.css" />
+</head>
+
+<body>
+    <img class="background-image" src="https://cdn.suwalls.com/wallpapers/cartoons/jedi-vs-sith-36123-1920x1080.jpg">
+    <div class="wrapper">
+        <div class="col-md-12">
+            <header><b>Holocron Collector</b></header>
+
+
+            <div class="row-md-12">
+                <div class="winsAndLosses">
+                    <h2>Wins:
+                        <span id="numberWins"></span>
+                        </br>
+                        Losses:
+                        <span id="numberLosses"></span>
+                    </h2>
+                </div>
+
+                <div class="holocrons">
+                    <div class="row-md-6" class="jedi-holocrons" >
+                        <img src="https://vignette.wikia.nocookie.net/learntheforce/images/e/ea/Holocron.png/revision/latest?cb=20150608035741" class="holocrons"
+                            class="rounded-circle" id="one" alt="Jedi Holocron">
+
+                        <img src="https://vignette.wikia.nocookie.net/starwarsrebels/images/a/ab/Holocron_profile.png/revision/latest?cb=20141011194106"
+                            class="holocrons" id="two" alt="Jedi Holocron" class="rounded">
+                    </div>
+
+
+                    <div class="row-md-6" class="sith-holocron">
+                        <img src="https://2.bp.blogspot.com/-IEd3caM7qv8/V0Zj9GCd2QI/AAAAAAAAGBs/VLxpM2urS184kFMRFFDJDxJR6XW9qV-cACLcB/s1600/Sith-Holocron-Papercraft.jpg"
+                            class="holocrons" id="three" alt="Sith Holocron" class="rounded">
+
+                        <img src="https://lh5.googleusercontent.com/-5iIEcog5COY/Uo8VQyrWCTI/AAAAAAABTsA/232m3MM_WM0/w800-h800/Sith%2BHolocron.jpg"
+                            class="holocrons" id="four" alt="Sith Holocron" class="rounded">
+                    </div>
+                </div>
+
+                <div class="row-md-12">
+                    <div class="current-number">
+                        <h1>Curent Number:
+                            <span id="randomNumber"></span>
+                        </h1>
+                    </div>
+                    <div class="userTotal">
+                            <h2>Total Score:
+                                <span id="finalTotal"></span>
+                            </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+    </script>
+    <script src="Assets/Javascript/game.js"></script>
+</body>
+
+</html>
